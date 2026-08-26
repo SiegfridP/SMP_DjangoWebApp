@@ -9,7 +9,9 @@
     <h1>Student Directory</h1>
     
     <a href="{% url 'student_create' %}">Register Student</a>
+    <a href="{% url 'student_dashboard' %}">Student Dashboard</a>
     <hr>
+    
 
     <ul>
         {% for student in students %}
