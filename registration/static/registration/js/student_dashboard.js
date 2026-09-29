@@ -1,8 +1,8 @@
-// fetch("api/students")
-// .then(response => response.json())
-// .then(data => {
-//     console.log(data)
-// })
+fetch("api/students")
+.then(response => response.json())
+.then(data => {
+    console.log(data)
+})
 
 async function loadStudents() {
     const loadingMessage =
