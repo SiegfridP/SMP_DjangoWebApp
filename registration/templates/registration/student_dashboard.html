@@ -82,6 +82,27 @@
   <tbody id="student-table-body">
   </tbody>
 </table>
+
+<section>
+  <label for="student-search">Search name or email:</label>
+  <input
+    type="search"
+    id="student-search"
+    placeholder="Type a name or email"
+  >
+  <label for="program-filter">Filter by program:</label>
+  <select id="program-filter">
+    <option value="">All programs</option>
+  </select>
+  <button type="button" id="clear-filters">
+    Clear Filters
+  </button>
+  <button type="button" id="refresh-students">
+    Refresh Data
+  </button>
+</section>
+<p id="result-count" aria-live="polite">Showing 0 students</p>
+
 </body>
 </html>
 <script src="{% static 'registration/js/student_dashboard.js' %}"></script>
